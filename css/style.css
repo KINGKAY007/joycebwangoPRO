@@ -157,6 +157,38 @@ a:focus {
   right: 0;
   bottom: 0;
 }
+.video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+}
+
+/* Responsive styles for iPhones */
+@media only screen and (max-width: 320px) {
+  /* Styles for iPhone 5 and SE */
+  .video {
+      max-width: 100%;
+      height: auto;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+  /* Styles for iPhone 6, 7, and 8 */
+  /* Adjust styles accordingly */
+}
+
+@media only screen and (min-width: 376px) and (max-width: 414px) {
+  /* Styles for iPhone 6 Plus, 7 Plus, and 8 Plus */
+  /* Adjust styles accordingly */
+}
+
+@media only screen and (min-width: 415px) {
+  /* Styles for larger screens or iPhone X and above */
+  /* Adjust styles accordingly */
+}
+
 /*----------------------------------
   Selection
 ------------------------------------*/
